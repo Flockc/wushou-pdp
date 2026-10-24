@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#F7F6F2">
+<meta name="color-scheme" content="light">
+<title>五兽之镜 · PDP 行为风格测评</title>
+<meta name="description" content="15 题、3 分钟，用五种动物看清自己的行为风格。千星奇域 UGC 关卡与网页版同题库、同判定，1024 造物挑战参赛作品。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="五兽之镜 · PDP 行为风格测评">
+<meta property="og:description" content="15 题、3 分钟，五种动物，一份可解释、可分享的行为风格画像。">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2315171A'/%3E%3Cg fill='%23F7F6F2'%3E%3Ccircle cx='16' cy='7' r='2.5'/%3E%3Ccircle cx='25' cy='13.5' r='2.5'/%3E%3Ccircle cx='21.5' cy='24' r='2.5'/%3E%3Ccircle cx='10.5' cy='24' r='2.5'/%3E%3Ccircle cx='7' cy='13.5' r='2.5'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/styles.css">
+<link rel="preconnect" href="https://hitscounter.dev" crossorigin></head>
+<body>
+
+<!-- ============================================================ SVG 图标库 -->
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-brand" viewBox="0 0 32 32">
+    <g fill="currentColor">
+      <circle cx="16" cy="6.4" r="2.7"></circle>
+      <circle cx="25.2" cy="13.1" r="2.7"></circle>
+      <circle cx="21.7" cy="23.9" r="2.7"></circle>
+      <circle cx="10.3" cy="23.9" r="2.7"></circle>
+      <circle cx="6.8" cy="13.1" r="2.7"></circle>
+    </g>
+  </symbol>
+
+  <!-- 五种类型的抽象标记 -->
+  <symbol id="m-t" viewBox="0 0 48 48">
+    <path d="M9 12 21 24 9 36" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"></path>
+    <path d="M22 12 34 24 22 36" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round" opacity=".55"></path>
+    <path d="M39 14v20" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" opacity=".3"></path>
+  </symbol>
+  <symbol id="m-p" viewBox="0 0 48 48">
+    <circle cx="24" cy="36" r="3.6" fill="currentColor"></circle>
+    <g fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round">
+      <path d="M24 32 24 13"></path><path d="M24 32 12 18"></path><path d="M24 32 36 18"></path>
+      <path d="M24 32 7 28" opacity=".55"></path><path d="M24 32 41 28" opacity=".55"></path>
+    </g>
+    <g fill="currentColor"><circle cx="24" cy="10" r="3"></circle><circle cx="9" cy="16" r="2.6"></circle><circle cx="39" cy="16" r="2.6"></circle></g>
+  </symbol>
+  <symbol id="m-k" viewBox="0 0 48 48">
+    <circle cx="13" cy="16" r="7" fill="none" stroke="currentColor" stroke-width="3.6"></circle>
+    <circle cx="35" cy="16" r="7" fill="none" stroke="currentColor" stroke-width="3.6"></circle>
+    <path d="M11 29a13 13 0 0 0 26 0" fill="none" stroke="currentColor" stroke-width="3.6" stroke-linecap="round"></path>
+    <circle cx="19" cy="26" r="1.8" fill="currentColor"></circle><circle cx="29" cy="26" r="1.8" fill="currentColor"></circle>
+  </symbol>
+  <symbol id="m-o" viewBox="0 0 48 48">
+    <path d="M6 24C12 14 36 14 42 24 36 34 12 34 6 24Z" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linejoin="round"></path>
+    <circle cx="24" cy="24" r="6" fill="none" stroke="currentColor" stroke-width="3.4"></circle>
+    <circle cx="24" cy="24" r="2" fill="currentColor"></circle>
+  </symbol>
+  <symbol id="m-c" viewBox="0 0 48 48">
+    <path d="M25 25a3.5 3.5 0 1 1 3.5 3.5 7 7 0 1 1-7-7 10.5 10.5 0 1 1 10.5 10.5 14 14 0 0 1-14-14" fill="none" stroke="currentColor" stroke-width="3.3" stroke-linecap="round"></path>
+  </symbol>
+
+  <!-- 功能图标 -->
+  <symbol id="f-quiz" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3.5" width="16" height="17" rx="3"></rect><path d="M8 8.5h8M8 12h5M8 15.5h3"></path></g></symbol>
+  <symbol id="f-gauge" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17a8 8 0 1 1 16 0"></path><path d="M12 17l4.5-5"></path><circle cx="12" cy="17" r="1.6"></circle></g></symbol>
+  <symbol id="f-chart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V4"></path><path d="M4 20h16"></path><rect x="7.5" y="12" width="3" height="5" rx="1"></rect><rect x="13" y="8" width="3" height="9" rx="1"></rect><rect x="18" y="5" width="3" height="12" rx="1"></rect></g></symbol>
+  <symbol id="f-key" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="6" width="19" height="12" rx="3"></rect><path d="M7 10h1M11.5 10h1M16 10h1M7 14h1M11.5 14h1M16 14h1"></path></g></symbol>
+  <symbol id="f-save" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h11l3 3v13H5z"></path><path d="M8 4v5h7V4"></path><rect x="8" y="13" width="8" height="6" rx="1"></rect></g></symbol>
+  <symbol id="f-share" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V4"></path><path d="m8 8 4-4 4 4"></path><path d="M5 13v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5"></path></g></symbol>
+  <symbol id="f-review" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4" width="14" height="17" rx="2.5"></rect><path d="M9 4V2.8h6V4"></path><path d="m8.5 11 1.5 1.5 3-3"></path><path d="M15 12h1.5M8.5 17h3"></path></g></symbol>
+  <symbol id="f-lock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4.5" y="10" width="15" height="10" rx="2.5"></rect><path d="M8 10V7.5a4 4 0 0 1 8 0V10"></path><circle cx="12" cy="15" r="1.4"></circle></g></symbol>
+
+  <!-- 界面图标 -->
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+  <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></symbol>
+  <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path></symbol>
+  <symbol id="i-copy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="8" y="8" width="12" height="12" rx="2.5"></rect><path d="M16 8V5.5A1.5 1.5 0 0 0 14.5 4h-9A1.5 1.5 0 0 0 4 5.5v9A1.5 1.5 0 0 0 5.5 16H8"></path></g></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v11"></path><path d="m8 11 4 4 4-4"></path><path d="M5 19h14"></path></g></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></symbol>
+  <symbol id="i-restart" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 2.6-5.9"></path><path d="M4 4v4.5h4.5"></path></g></symbol>
+  <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l11-6.5z" fill="currentColor"></path></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"></circle><path d="M12 11v5.5"></path><circle cx="12" cy="8" r=".9" fill="currentColor" stroke="none"></circle></g></symbol>
+</svg><!-- ============================================================ 顶部导航 -->
+<header class="site-nav" id="siteNav">
+  <div class="nav-inner">
+    <a class="brand" href="#/" aria-label="五兽之镜 首页">
+      <span class="brand-mark"><svg width="26" height="26"><use href="#i-brand"></use></svg></span>
+      <span class="brand-text">
+        <strong>五兽之镜</strong>
+        <em>PDP 行为风格测评</em>
+      </span>
+    </a>
+
+    <nav class="nav-links" id="navLinks" aria-label="主导航">
+      <a href="#/" data-nav="home" class="is-active">首页</a>
+      <a href="#/types" data-nav="types">五型图鉴</a>
+      
+      
+      
+      <div class="nav-mobile-cta">
+        <a class="btn btn-primary btn-block" href="#/test">开始测评<svg class="ico"><use href="#i-arrow"></use></svg></a>
+      </div>
+    </nav>
+
+    <div class="nav-right">
+      <span class="nav-badge">1024 造物挑战</span>
+      <a class="btn btn-primary btn-sm nav-cta" href="#/test">开始测评</a>
+      <button class="icon-btn nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false" aria-controls="navLinks">
+        <svg class="ico"><use href="#i-close"></use></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ============================================================ 视图：首页 -->
+<section class="view is-active" id="view-home" data-view="home">
+
+  <div class="hero">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-dots"></div>
+      <div class="hero-ring"></div>
+    </div>
+
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <div class="eyebrow-row reveal is-in">
+          
+          
+        </div>
+
+        <h1 class="hero-title reveal is-in" style="font-size: 48px;">
+          用动物分类行为风格<br>
+        </h1>
+
+        <p class="hero-lead reveal is-in">
+          15 道情境题，从老虎、孔雀、考拉、猫头鹰到变色龙——
+          它不给你贴标签，只把你「在具体场景里的第一反应」摊开来看。
+          3 分钟做完，拿到一张可解释、可分享的行为风格画像。
+        </p>
+
+        <div class="hero-actions reveal is-in">
+          <a class="btn btn-primary btn-lg" href="#/test">
+            <svg class="ico"><use href="#i-play"></use></svg>开始测评
+          </a>
+          <a class="btn btn-ghost btn-lg" href="#/types">
+            先看五型图鉴<svg class="ico"><use href="#i-arrow"></use></svg>
+          </a>
+        </div>
+
+        <dl class="hero-metrics reveal is-in">
+          <div><dt>15</dt><dd>道情境题</dd></div>
+          <div><dt>5</dt><dd>种行为风格</dd></div>
+          <div><dt>≈3<small>min</small></dt><dd>单次时长</dd></div>
+          <div><dt>0</dt><dd>数据上传</dd></div>
+        </dl>
+      </div>
+
+      <div class="hero-visual reveal is-in" aria-hidden="true">
+        <div class="spec-stack">
+          <article class="spec-card spec-back-2">
+            <span class="spec-code">P</span>
+          </article>
+          <article class="spec-card spec-back-1">
+            <span class="spec-code">T</span>
+          </article>
+          <article class="spec-card spec-main">
+            <header class="spec-head">
+              <span class="spec-mark" style="color:#3F72B5"><svg width="46" height="46"><use href="#m-o"></use></svg></span>
+              <span class="spec-tag">精确型</span>
+            </header>
+            <h3>猫头鹰型</h3>
+            <p class="spec-key">分析 · 规范 · 精确</p>
+            <p class="spec-quote">先看清楚，再动手</p>
+            <p class="spec-mini">四维得分 · 本次结果</p>
+            <div class="spec-bars">
+              <span style="--w:86%;--c:#3F72B5"></span>
+              <span style="--w:54%;--c:#D64541"></span>
+              <span style="--w:40%;--c:#D98324"></span>
+              <span style="--w:62%;--c:#4F9E68"></span>
+            </div>
+            <footer class="spec-foot">
+              <span>分析准 · 质量意识强</span>
+              <span class="spec-score">8 / 15</span>
+            </footer>
+          </article>
+
+          <div class="float-card float-rule">
+            <span class="dot"></span>
+            <span><b>极差 ≤ 2</b> 判为变色龙型</span>
+          </div>
+          <div class="float-card float-key">
+            <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd>
+            <span>可按键作答​</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 三个设计原则 -->
+  
+
+  <!-- 五型 -->
+  <section class="band band-alt">
+    <div class="container">
+      <div class="band-head band-head-row reveal is-in">
+        <div>
+          <span class="section-no">五种行为风格​​</span>
+          <h2 class="section-title">先认一认，再对号入座</h2>
+        </div>
+        <a class="link-more" href="#/types">打开完整图鉴<svg class="ico"><use href="#i-arrow"></use></svg></a>
+      </div>
+      <div class="type-strip" id="homeTypeStrip"><a class="type-card" href="#/types" style="--c:#D64541" aria-label="查看老虎型详情"><span class="tc-mark"><svg width="38" height="38" aria-hidden="true"><use href="#m-t"></use></svg></span><span class="tc-letter">TYPE T</span><span class="tc-name">老虎型</span><span class="tc-alias">支配型</span><span class="tc-key">果断 · 掌控 · 目标导向</span></a><a class="type-card" href="#/types" style="--c:#D98324" aria-label="查看孔雀型详情"><span class="tc-mark"><svg width="38" height="38" aria-hidden="true"><use href="#m-p"></use></svg></span><span class="tc-letter">TYPE P</span><span class="tc-name">孔雀型</span><span class="tc-alias">表达型</span><span class="tc-key">热情 · 社交 · 感染力</span></a><a class="type-card" href="#/types" style="--c:#4F9E68" aria-label="查看考拉型详情"><span class="tc-mark"><svg width="38" height="38" aria-hidden="true"><use href="#m-k"></use></svg></span><span class="tc-letter">TYPE K</span><span class="tc-name">考拉型</span><span class="tc-alias">耐心型</span><span class="tc-key">稳定 · 协作 · 耐心</span></a><a class="type-card" href="#/types" style="--c:#3F72B5" aria-label="查看猫头鹰型详情"><span class="tc-mark"><svg width="38" height="38" aria-hidden="true"><use href="#m-o"></use></svg></span><span class="tc-letter">TYPE O</span><span class="tc-name">猫头鹰型</span><span class="tc-alias">精确型</span><span class="tc-key">分析 · 规范 · 精确</span></a><a class="type-card" href="#/types" style="--c:#8A6BC1" aria-label="查看变色龙型详情"><span class="tc-mark"><svg width="38" height="38" aria-hidden="true"><use href="#m-c"></use></svg></span><span class="tc-letter">TYPE C</span><span class="tc-name">变色龙型</span><span class="tc-alias">整合型</span><span class="tc-key">均衡 · 灵活 · 适应</span></a></div>
+    </div>
+  </section>
+
+  <!-- 双端 -->
+  
+
+  <!-- 场景预览 -->
+  
+
+  <!-- CTA -->
+  <section class="cta-band">
+    <div class="container cta-inner reveal is-in">
+      <div>
+        <h2>三分钟，认识一下那个「默认模式」的你</h2>
+        <p>不需要注册，不会上传任何作答数据。做完可以下载一张结果卡。</p>
+      </div>
+      <a class="btn btn-invert btn-lg" href="#/test">开始测评<svg class="ico"><use href="#i-arrow"></use></svg></a>
+    </div>
+  </section>
+</section>
+
+<!-- ============================================================ 视图：测评 -->
+<section class="view" id="view-test" data-view="test">
+  <div class="stage">
+    <div class="stage-bg" aria-hidden="true"></div>
+
+    <!-- 开始屏 -->
+    <div class="panel panel-start" id="testStart">
+      <div class="start-grid">
+        <div class="start-main">
+          <span class="section-no">PDP · 行为风格自评</span>
+          <h1 class="start-title">开始之前，先说清楚三件事</h1>
+          <ol class="rules">
+            <li><b>凭第一反应选。</b>题目没有对错，也没有「更好的性格」，只有更接近你日常状态的那个选项。</li>
+            <li><b>作答时不显示维度。</b>四个选项分别对应四种风格，但界面上不会提示——避免你照着「想要的答案」去选。</li>
+            <li><b>结果是一个倾向，不是判决。</b>它描述的是你在工作情境里的默认反应，不覆盖你在不同关系里的全部样子。</li>
+          </ol>
+          <div class="start-actions">
+            <button class="btn btn-primary btn-lg" id="btnStart" type="button">
+              <svg class="ico"><use href="#i-play"></use></svg>开始答题
+            </button>
+            <button class="btn btn-ghost btn-lg" id="btnResume" type="button" hidden="">
+              <svg class="ico"><use href="#i-back"></use></svg><span id="resumeLabel">继续上次（第 2 题）</span>
+            </button>
+          </div>
+          <p class="start-note">
+            <svg class="ico"><use href="#i-info"></use></svg>
+            进度会自动保存在本机浏览器；随时可以点「退出」清空。
+          </p>
+        </div>
+
+        <aside class="start-side">
+          <div class="side-card">
+            <h3>这次会得到什么</h3>
+            <ul class="side-list">
+              <li><span>01</span>一个主类型 + 四维得分</li>
+              <li><span>02</span>核心优势 / 注意盲区 / 发展建议</li>
+              <li><span>03</span>可下载的结果分享卡</li>
+              <li><span>04</span>逐题回顾，看自己怎么选的</li>
+            </ul>
+          </div>
+          <div class="side-card side-card-quiet">
+            <h3>小提示</h3>
+            <p>作答时可以直接按键盘 <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd> 选择，按 <kbd>←</kbd> 回到上一题。</p>
+          </div>
+        </aside>
+      </div>
+    </div>
+
+    <!-- 答题屏 -->
+    <div class="panel panel-quiz" id="testQuiz" hidden="">
+      <header class="quiz-head">
+        <div class="quiz-meta">
+          <span class="quiz-step">第 <b id="qIndex">1</b> / <span id="qTotal">15</span> 题</span>
+          <span class="quiz-percent" id="qPercent">0%</span>
+        </div>
+        <div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="15" aria-valuenow="0" id="qProgress">
+          <span class="progress-fill" id="qProgressFill"></span>
+        </div>
+      </header>
+
+      <div class="quiz-body" id="quizBody">
+        <h2 class="question" id="qText">题目</h2>
+        <div class="options" id="qOptions" role="group" aria-label="选项"></div>
+      </div>
+
+      <footer class="quiz-foot">
+        <button class="btn btn-quiet btn-sm" id="btnPrev" type="button">
+          <svg class="ico"><use href="#i-back"></use></svg>上一题
+        </button>
+        <span class="hint-desktop">键盘 <kbd>1</kbd>–<kbd>4</kbd> 快速作答 · <kbd>←</kbd> 返回</span>
+        <button class="btn btn-quiet btn-sm" id="btnQuit" type="button">退出</button>
+      </footer>
+    </div>
+
+    <!-- 结果屏 -->
+    <div class="panel panel-result" id="testResult" hidden="">
+      <div id="resultMount"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 视图：图鉴 -->
+<section class="view" id="view-types" data-view="types">
+  <div class="page-head">
+    <div class="container">
+      <span class="section-no">五种行为风格 · 完整图鉴</span>
+      <h1 class="page-title">五只动物，五种默认反应</h1>
+      <p class="page-lead">
+        PDP 把行为风格分成四个可观测维度：支配、表达、耐心、精确。第五种「变色龙」不是题目选项，
+        而是当四种倾向都不突出时，由判定规则给出的一种结果。下面是它们的完整画像，以及和它们协作时最省力的方式。
+      </p>
+      <div class="legend">
+        <span><i style="background:#D64541"></i>老虎 · 支配</span>
+        <span><i style="background:#D98324"></i>孔雀 · 表达</span>
+        <span><i style="background:#4F9E68"></i>考拉 · 耐心</span>
+        <span><i style="background:#3F72B5"></i>猫头鹰 · 精确</span>
+        <span><i style="background:#8A6BC1"></i>变色龙 · 整合</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="gallery" id="gallery"><article class="gallery-card" style="--c:#D64541;--tint:#FBEDEC"><div class="gc-left"><span class="gc-mark"><svg width="52" height="52" aria-hidden="true"><use href="#m-t"></use></svg></span><div class="gc-namebox"><span class="gc-code">TYPE T</span><h2 class="gc-name">老虎型</h2><span class="gc-alias">支配型</span></div><div class="gc-kw"><span>果断</span><span>掌控</span><span>目标导向</span></div></div><div class="gc-right"><p class="gc-quote">先定方向，再谈细节</p><div class="gc-rows"><div class="gc-row"><h4>整体印象</h4><p>目标导向、行动力强，习惯主导节奏并推动结果落地。</p></div><div class="gc-row"><h4>适合的场景</h4><p>适合攻坚、从 0 到 1、需要有人拍板的场景。</p></div><div class="gc-row"><h4>核心优势</h4><p>决策快、抗压强，在混乱里能定方向；遇到卡点会直接去推。</p></div><div class="gc-row"><h4>注意盲区</h4><p>容易忽略他人感受与执行细节，节奏太快时显得强势、缺乏耐心。</p></div><div class="gc-row"><h4>发展建议</h4><p>结论先说，但刻意留 30 秒听他人补充；把「必须现在定」和「可以再想想」分开写。</p></div></div><div class="gc-collab"><b>协作提示</b><span>跟他汇报先给结论和选项；把决策权与时间盒一起交给他，别用「再讨论讨论」拖住节奏。</span></div></div></article><article class="gallery-card" style="--c:#D98324;--tint:#FBF0E1"><div class="gc-left"><span class="gc-mark"><svg width="52" height="52" aria-hidden="true"><use href="#m-p"></use></svg></span><div class="gc-namebox"><span class="gc-code">TYPE P</span><h2 class="gc-name">孔雀型</h2><span class="gc-alias">表达型</span></div><div class="gc-kw"><span>热情</span><span>社交</span><span>感染力</span></div></div><div class="gc-right"><p class="gc-quote">先把人聚起来，事就成了一半</p><div class="gc-rows"><div class="gc-row"><h4>整体印象</h4><p>热情外向、感染力强，靠人际连接与氛围推动事情。</p></div><div class="gc-row"><h4>适合的场景</h4><p>适合对外沟通、破冰、需要把资源串起来的场景。</p></div><div class="gc-row"><h4>核心优势</h4><p>会沟通、能借力，善把不同的人串到一张桌上，天然的组织润滑剂。</p></div><div class="gc-row"><h4>注意盲区</h4><p>容易被热闹带走、承诺偏多，落在纸面上的细节与收尾偏弱。</p></div><div class="gc-row"><h4>发展建议</h4><p>每次聊完立刻写一句「谁 / 做什么 / 什么时候」；给情绪之外的交付物留固定时间。</p></div></div><div class="gc-collab"><b>协作提示</b><span>先认同他的情绪和价值，再谈细节；把口头承诺当场落成书面，并给他对外露出的机会。</span></div></div></article><article class="gallery-card" style="--c:#4F9E68;--tint:#EBF5EE"><div class="gc-left"><span class="gc-mark"><svg width="52" height="52" aria-hidden="true"><use href="#m-k"></use></svg></span><div class="gc-namebox"><span class="gc-code">TYPE K</span><h2 class="gc-name">考拉型</h2><span class="gc-alias">耐心型</span></div><div class="gc-kw"><span>稳定</span><span>协作</span><span>耐心</span></div></div><div class="gc-right"><p class="gc-quote">不抢戏，但一直在</p><div class="gc-rows"><div class="gc-row"><h4>整体印象</h4><p>稳健踏实、耐心协作，是团队里最不容易出乱子的那一环。</p></div><div class="gc-row"><h4>适合的场景</h4><p>适合长期维护、需要稳定输出的交付型场景。</p></div><div class="gc-row"><h4>核心优势</h4><p>可靠、有耐心，能长期守住一条线，冲突少、口碑好。</p></div><div class="gc-row"><h4>注意盲区</h4><p>对变化与冲突有回避倾向，容易把「不表态」当默认，节奏容易被别人决定。</p></div><div class="gc-row"><h4>发展建议</h4><p>每周至少主动表达一次不同意见；把「我的偏好」明确说出口，而不是等人猜。</p></div></div><div class="gc-collab"><b>协作提示</b><span>提前告知变化、给缓冲期；一次只推一个改动，用「你觉得呢」代替「必须」。</span></div></div></article><article class="gallery-card" style="--c:#3F72B5;--tint:#EAF0F9"><div class="gc-left"><span class="gc-mark"><svg width="52" height="52" aria-hidden="true"><use href="#m-o"></use></svg></span><div class="gc-namebox"><span class="gc-code">TYPE O</span><h2 class="gc-name">猫头鹰型</h2><span class="gc-alias">精确型</span></div><div class="gc-kw"><span>分析</span><span>规范</span><span>精确</span></div></div><div class="gc-right"><p class="gc-quote">先看清楚，再动手</p><div class="gc-rows"><div class="gc-row"><h4>整体印象</h4><p>逻辑缜密、注重规范，习惯把问题拆到可验证的最小单元。</p></div><div class="gc-row"><h4>适合的场景</h4><p>适合质量把关、规则制定、复杂问题拆解的场景。</p></div><div class="gc-row"><h4>核心优势</h4><p>分析准、质量意识强，能发现别人漏掉的边界与风险。</p></div><div class="gc-row"><h4>注意盲区</h4><p>易陷入完美主义与过度验证，决策偏慢，也可能显得挑剔难接近。</p></div><div class="gc-row"><h4>发展建议</h4><p>给自己设「够用即发」的时间盒；把结论先讲、证据后附，减少说服成本。</p></div></div><div class="gc-collab"><b>协作提示</b><span>给数据、来源和边界条件；让他把话说完，同时用时间盒帮他收口。</span></div></div></article><article class="gallery-card" style="--c:#8A6BC1;--tint:#F2EDFA"><div class="gc-left"><span class="gc-mark"><svg width="52" height="52" aria-hidden="true"><use href="#m-c"></use></svg></span><div class="gc-namebox"><span class="gc-code">TYPE C</span><h2 class="gc-name">变色龙型</h2><span class="gc-alias">整合型</span></div><div class="gc-kw"><span>均衡</span><span>灵活</span><span>适应</span></div></div><div class="gc-right"><p class="gc-quote">没有固定形状，所以哪里都能待</p><div class="gc-rows"><div class="gc-row"><h4>整体印象</h4><p>四种特质相对均衡，能根据情境切换角色，适应力是最大资产。</p></div><div class="gc-row"><h4>适合的场景</h4><p>适合跨部门协调、新业务探索、规则尚未成型的场景。</p></div><div class="gc-row"><h4>核心优势</h4><p>不贴标签、见什么人说什么话，跨部门协作与从零搭建场景时优势明显。</p></div><div class="gc-row"><h4>注意盲区</h4><p>因为不偏科，容易缺少鲜明标签；也可能在需要「死磕一件事」时动力不足。</p></div><div class="gc-row"><h4>发展建议</h4><p>主动挑一个方向做深，做出一个能被别人指认的「代表作」，用作品补上标签。</p></div></div><div class="gc-collab"><b>协作提示</b><span>给他明确的角色与交付标准，并帮他选一个主攻方向，避免长期当「万能补位」。</span></div></div></article></div>
+
+    <section class="matrix-block">
+      <div class="band-head">
+        <span class="section-no">协作对照</span>
+        <h2 class="section-title">同一件事，五种人会怎么处理</h2>
+        <p class="section-sub">这一张表比标签更有用：它告诉你差异发生在哪一步。</p>
+      </div>
+      <div class="matrix-wrap">
+        <table class="matrix">
+          <thead>
+            <tr><th>类型</th><th>沟通方式</th><th>决策依据</th><th>压力下的表现</th><th>最需要的搭档</th></tr>
+          </thead>
+          <tbody>
+            <tr><th><span class="t-dot" style="--c:#D64541"></span>老虎</th><td>先给结论</td><td>目标与时间点</td><td>更快、更硬、更少解释</td><td>猫头鹰补细节</td></tr>
+            <tr><th><span class="t-dot" style="--c:#D98324"></span>孔雀</th><td>先讲愿景</td><td>人的接受度</td><td>话变多、承诺变多</td><td>猫头鹰帮落地</td></tr>
+            <tr><th><span class="t-dot" style="--c:#4F9E68"></span>考拉</th><td>先做铺垫</td><td>先例与稳定</td><td>沉默、回避冲突</td><td>老虎帮拍板</td></tr>
+            <tr><th><span class="t-dot" style="--c:#3F72B5"></span>猫头鹰</th><td>先给背景</td><td>数据与逻辑</td><td>更抠细节、更慢</td><td>孔雀帮对外</td></tr>
+            <tr><th><span class="t-dot" style="--c:#8A6BC1"></span>变色龙</th><td>看人下菜</td><td>情境需要</td><td>谁都能接、但容易失焦</td><td>需要有人帮他定方向</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="footnote">表中内容为基于 PDP 四维模型的通行描述整理，用于沟通参考，不作为人员评价依据。</p>
+    </section>
+  </div>
+</section>
+
+<!-- ============================================================ 视图：作品介绍 -->
+<section class="view" id="view-about" data-view="about">
+  <div class="page-head">
+    <div class="container">
+      <span class="section-no">作品介绍 · About</span>
+      <h1 class="page-title">一个小测评，为什么值得做成两个版本</h1>
+      <p class="page-lead">
+        《五兽之镜》是一套 PDP 行为风格自评工具。它有两个形态：一个跑在千星奇域编辑器里的 UGC 关卡，
+        一个跑在浏览器里的网页应用。前者证明这套交互能在游戏里成立，后者让任何人都能零门槛地看到它。
+      </p>
+    </div>
+  </div>
+
+  <div class="container about-layout">
+    <aside class="about-toc">
+      <span class="toc-title">目录</span>
+      <a href="#about-story">创作缘起</a>
+      <a href="#about-design">四个设计取舍</a>
+      <a href="#about-features">功能一览</a>
+      <a href="#about-tech">技术实现</a>
+      <a href="#about-timeline">迭代记录</a>
+      <a href="#about-boundary">边界与数据</a>
+    </aside>
+
+    <div class="about-body">
+      <section id="about-story" class="about-sec reveal">
+        <span class="section-no">01</span>
+        <h2>创作缘起</h2>
+        <p>
+          起点是一个很具体的场景：团队里反复出现同一种摩擦——有人觉得对方「不推进」，有人觉得对方「太着急」。
+          两边都没错，只是默认反应不同。市面上的性格测评不少，但大多是长问卷、要注册、结果是一段无法验证的形容词。
+        </p>
+        <p>
+          于是想做一个更轻的东西：<b>15 题、3 分钟、结果可解释、可以当场分享</b>。
+          选择 PDP 五型，是因为动物比喻天然适合口头传播——「他是孔雀」比「他的表达维度得分较高」更容易在会议室里说出口。
+        </p>
+        <p>
+          后来又把它做进了千星奇域。原因也很直接：如果这套交互只能在网页里成立，它只是一个问卷；
+          能在一个游戏关卡里被玩家主动点开、做完、截图发出去，它才更接近「作品」。
+        </p>
+      </section>
+
+      <section id="about-design" class="about-sec reveal">
+        <span class="section-no">02</span>
+        <h2>四个设计取舍</h2>
+
+        <div class="decision">
+          <div class="decision-q"><span>Q1</span>为什么作答时不显示每个选项对应的维度？</div>
+          <p>
+            一旦标出「这题选 A 加老虎分」，测评就变成了填空题。隐藏维度会让个别题目看起来「四个都不太像我」，
+            但能换来更真实的作答。维度信息在结果页的「答题回顾」里完整公开，想知道随时能看。
+          </p>
+        </div>
+
+        <div class="decision">
+          <div class="decision-q"><span>Q2</span>为什么用「极差 ≤ 2」判变色龙，而不是直接取最高分？</div>
+          <p>
+            15 题、四个维度，平均每题每维约 3.75 分。如果只取最高分，一个 4/4/4/3 的人会被判成老虎，
+            但这四分之差更像噪声而非倾向。设定「最高减最低 ≤ 2」判为变色龙，是为了给「四项都不弱」的人一个诚实的出口。
+            阈值放在脚本与数据层各一处常量里，可以按场景调整。
+          </p>
+        </div>
+
+        <div class="decision">
+          <div class="decision-q"><span>Q3</span>为什么同时做键盘、鼠标、手柄三套输入？</div>
+          <p>
+            沙箱版的原始约束是「光标事件必须容器开 showCursor 才生效」，而手柄导航是另一套焦点系统。
+            只做鼠标，等于在手柄玩家那里直接失效；只做按键，又不适合手机端。
+            所以选项区同时挂了光标点击与 1–4 键，切屏时主动设置手柄焦点，Web 版则把这三类输入映射成同一套动作。
+          </p>
+        </div>
+
+        <div class="decision">
+          <div class="decision-q"><span>Q4</span>为什么网页版坚持零依赖？</div>
+          <p>
+            评审打开一个链接，不该先等 3MB 的框架下载完。整套页面只用原生 HTML / CSS / JavaScript，
+            没有构建步骤、没有 CDN 依赖，断网也能跑；同时也让这份代码可以直接作为静态站点托管。
+          </p>
+        </div>
+      </section>
+
+      <section id="about-features" class="about-sec reveal">
+        <span class="section-no">03</span>
+        <h2>功能一览</h2>
+        <p>八项功能都指向同一个目标：让「做完一次测评」这件事足够顺，顺到愿意把它发给别人。</p>
+        <div class="feature-grid" id="featureGrid"><article class="feature-item"><span class="feature-icon"><svg class="ico " aria-hidden="true"><use href="#f-quiz"></use></svg></span><h3>15 题四选一</h3><p>每题四个选项分别对应老虎 / 孔雀 / 考拉 / 猫头鹰，作答时不显示维度，避免「照着答案选」。</p></article><article class="feature-item"><span class="feature-icon"><svg class="ico " aria-hidden="true"><use href="#f-gauge"></use></svg></span><h3>极差阈值判定</h3><p>不只取最高分：最高与最低分相差 ≤ 2 时判为变色龙型，专门容纳「四项都不弱」的人。</p></article><article class="feature-item"><span class="feature-icon"><svg class="ico " aria-hidden="true"><use href="#f-chart"></use></svg></span><h3>四维可视化</h3><p>雷达图 + 四条得分条 + 一条均衡度，让「为什么是这个结果」可被解释，而不是一个黑箱标签。</p></article><article class="feature-item"><span class="feature-icon"><svg class="ico " aria-hidden="true"><use href="#f-key"></use></svg></span><h3>键盘 / 鼠标 / 触屏</h3><p>支持 1–4 键作答、← 键回看上一题、Enter 开始；移动端为整块可点区域，无悬停依赖。</p></article><article class="feature-item"><span class="feature-icon"><svg class="ico " aria-hidden="true"><use href="#f-save"></use></svg></span><h3>断点续答</h3><p>进度写入 localStorage，刷新或误关页面后可从第 n 题继续，也可一键清空重来。</p></article><article class="feature-item"><span class="feature-icon"><svg class="ico " aria-hidden="true"><use href="#f-share"></use></svg></span><h3>结果分享卡</h3><p>一键生成 1080×1440 的结果图并下载，适合直接发群、发朋友圈，不必截图裁切。</p></article><article class="feature-item"><span class="feature-icon"><svg class="ico " aria-hidden="true"><use href="#f-review"></use></svg></span><h3>答题回顾</h3><p>结果页可展开每一题的选择与对应维度，方便复盘「我是不是被某一题带偏了」。</p></article><article class="feature-item"><span class="feature-icon"><svg class="ico " aria-hidden="true"><use href="#f-lock"></use></svg></span><h3>纯本地计算</h3><p>无账号、无后端、无埋点，作答数据不离开浏览器；断网也能完成整套测评。</p></article></div>
+      </section>
+
+      <section id="about-tech" class="about-sec reveal">
+        <span class="section-no">04</span>
+        <h2>技术实现</h2>
+        <div class="tech-grid">
+          <div class="tech-card">
+            <h3>网页版</h3>
+            <ul>
+              <li>原生 HTML + CSS + JavaScript，零第三方库</li>
+              <li>Hash 路由，单页六视图，无刷新切换</li>
+              <li>CSS 变量管理五型配色，响应式断点 1080 / 860 / 620</li>
+              <li>localStorage 保存进度，刷新可续答</li>
+              <li>Canvas 生成 1080×1440 结果分享卡</li>
+              <li>SVG 手绘雷达图与全部图标，无外部图片</li>
+            </ul>
+          </div>
+          <div class="tech-card">
+            <h3>千星沙箱版</h3>
+            <ul>
+              <li>Lua 5.3 客户端脚本，657 行，单文件七层结构</li>
+              <li>53 个客户端控件，全部编辑期预置，不依赖动态创建</li>
+              <li>0 个服务端节点，全部计算在客户端完成</li>
+              <li>字段直读直写（text / fillAmount / imageColor），无 setter</li>
+              <li>生命周期必须为全局函数：OnInit / OnStart / OnDisable / OnDestroy</li>
+              <li>脚本需先在资源管理器建立映射，再挂到容器控件的脚本页签</li>
+            </ul>
+          </div>
+        </div>
+        <p class="footnote">
+          沙箱端的接口名均取自官方《客户端控件API文档》《客户端控件和客户端脚本》原文；
+          详细控件清单与搭建步骤见随作品提交的《控件配置清单》与《搭建操作手册》。
+        </p>
+      </section>
+
+      <section id="about-timeline" class="about-sec reveal">
+        <span class="section-no">05</span>
+        <h2>迭代记录</h2>
+        <ol class="timeline">
+          <li>
+            <span class="tl-tag">v1</span>
+            <div><h3>先跑通想法</h3><p>靠公开教程拼出沙箱脚本骨架，把 15 题与五型文案写死。当时有 4 个接口名无法核实，明确标了「待核对」而没有猜。</p></div>
+          </li>
+          <li>
+            <span class="tl-tag">v2</span>
+            <div><h3>按官方原文重做</h3><p>知识库可达后拉取 13 篇文档原文，纠正了 3 处错误：不存在 SetText、取值是字段直写、动态创建的边界不是「主屏」。全部接口名落到文档章节。</p></div>
+          </li>
+          <li>
+            <span class="tl-tag">v3</span>
+            <div><h3>搬进浏览器</h3><p>保留题库、判定与文案，重做信息架构与视觉；补上雷达图、答题回顾、断点续答、分享卡，并加入可演示的作品介绍与投稿信息。</p></div>
+          </li>
+        </ol>
+      </section>
+
+      <section id="about-boundary" class="about-sec reveal">
+        <span class="section-no">06</span>
+        <h2>边界与数据</h2>
+        <div class="callout">
+          <svg class="ico"><use href="#i-info"></use></svg>
+          <div>
+            <p><b>它不是心理诊断工具。</b>PDP 描述的是工作情境下的行为倾向，不测量能力、智力或心理健康水平。</p>
+            <p><b>它不适合作为筛选依据。</b>不应用于招聘淘汰、绩效评定或任何单方面的人事决定。</p>
+            <p><b>它不收集作答内容。</b>网页版无账号、无后端，也不接入任何第三方统计脚本；访问次数与作答结果都只存在于你本机的 localStorage，清空浏览器数据即消失。</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================ 视图：使用场景 -->
+<section class="view" id="view-scenarios" data-view="scenarios">
+  <div class="page-head">
+    <div class="container">
+      <span class="section-no">使用场景 · Scenarios</span>
+      <h1 class="page-title">它最适合被用在「需要开口聊」的场合</h1>
+      <p class="page-lead">
+        这套工具解决的从来不是「测出你是什么人」，而是给一群人一个不尴尬的开场。
+        下面是五个已经想清楚的具体用法，包含适用对象、真实痛点和主持提示。
+      </p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="scenario-list" id="scenarioList"><article class="scenario-block reveal is-in"><span class="sb-no">01</span><div class="sb-main"><h3>团队破冰与新人融入</h3><p class="sb-for">10 人以内的小团队 / 项目组</p><p class="sb-how">每人各自做完 15 题，把结果页的分享卡发到群里，用五种动物代替性格标签，10 分钟完成一次有信息量的互相认识。</p></div><aside class="sb-side"><div class="sb-pain"><h4>真实痛点</h4><p>自我介绍环节往往只剩「我叫什么、我负责什么」，很难形成真实协作预期。</p></div><div class="sb-tip"><h4>主持提示</h4><p>建议由主持人先公开自己的结果，降低防御感。</p></div></aside></article><article class="scenario-block reveal is-in"><span class="sb-no">02</span><div class="sb-main"><h3>管理者的一对一沟通</h3><p class="sb-for">带 3–10 人团队的基层管理者</p><p class="sb-how">用结果页的「注意盲区」与「协作提示」两段，作为一对一沟通的破题材料，把「你怎么这样」换成「你需要什么」。</p></div><aside class="sb-side"><div class="sb-pain"><h4>真实痛点</h4><p>同一套沟通方式对不同下属效果差异极大，但缺少可复用的解释框架。</p></div><div class="sb-tip"><h4>主持提示</h4><p>定位是沟通辅助，不作为绩效或晋升依据。</p></div></aside></article><article class="scenario-block reveal"><span class="sb-no">03</span><div class="sb-main"><h3>求职与自我盘点</h3><p class="sb-for">应届生 / 转行者 / 准备述职的人</p><p class="sb-how">做完后看四项得分的相对高低，而不是只看一个标签；把「核心优势」翻译成简历里的具体行为证据。</p></div><aside class="sb-side"><div class="sb-pain"><h4>真实痛点</h4><p>知道自己的经历，但说不清自己的行为风格与适配岗位。</p></div><div class="sb-tip"><h4>主持提示</h4><p>结果不能替代真实项目复盘，只提供提问角度。</p></div></aside></article><article class="scenario-block reveal"><span class="sb-no">04</span><div class="sb-main"><h3>课堂、社团与工作坊</h3><p class="sb-for">高校社团 / 职业规划课 / 团建活动</p><p class="sb-how">纯前端、无需登录、手机打开即用；投屏演示 + 各自手机作答，主持人按五种类型现场分组讨论。</p></div><aside class="sb-side"><div class="sb-pain"><h4>真实痛点</h4><p>现场互动工具要么太重（要注册、要收费），要么太轻（只是投票）。</p></div><div class="sb-tip"><h4>主持提示</h4><p>全部计算在本地完成，不收集任何作答数据。</p></div></aside></article><article class="scenario-block reveal"><span class="sb-no">05</span><div class="sb-main"><h3>游戏内的轻量互动</h3><p class="sb-for">千星奇域 UGC 关卡玩家</p><p class="sb-how">千星沙箱版把同一套题做成纯客户端控件 UI 关卡，零服务端节点、单局 3 分钟，可作为大厅里的休闲交互点。</p></div><aside class="sb-side"><div class="sb-pain"><h4>真实痛点</h4><p>UGC 关卡多为动作或解谜，缺少「停下来聊聊自己」的节奏。</p></div><div class="sb-tip"><h4>主持提示</h4><p>双端同题库、同阈值，结果口径一致。</p></div></aside></article></div>
+
+    <section class="howto reveal">
+      <div class="band-head">
+        <span class="section-no">主持指南</span>
+        <h2 class="section-title">一场 20 分钟的团队工作坊，可以这样跑</h2>
+      </div>
+      <div class="howto-steps">
+        <div class="howto-step"><span>00:00</span><h3>各自作答</h3><p>投屏放出网址，所有人用手机做完 15 题。主持人不说答案，只强调「凭第一反应」。</p></div>
+        <div class="howto-step"><span>00:05</span><h3>公开自己的</h3><p>主持人先展示自己的结果卡，说明一个自己的盲区。这一步决定后面大家敢不敢说真话。</p></div>
+        <div class="howto-step"><span>00:10</span><h3>按类型分组</h3><p>同类型的人坐一起，讨论「我们最怕跟哪种人合作」。跨类型的小组最容易聊出真实摩擦。</p></div>
+        <div class="howto-step"><span>00:16</span><h3>落到一条约定</h3><p>每组只说一条「希望对方以后怎么跟我说话」，写下来贴在群里。测评到此才算有用。</p></div>
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- ============================================================ 视图：投稿信息 -->
+<section class="view" id="view-submit" data-view="submit">
+  <div class="page-head">
+    <div class="container">
+      <span class="section-no">投稿信息 · Submission</span>
+      <h1 class="page-title">1024 造物挑战 · 作品资料</h1>
+      <p class="page-lead">
+        本页把投稿表单需要的信息整理成可直接复制的文本块。标注「待填写」的字段需要你按官方表单补充，
+        其余内容均已按作品实际情况写好。
+      </p>
+    </div>
+  </div>
+
+  <div class="container submit-layout">
+    <div class="submit-main">
+      <section class="submit-card">
+        <header class="submit-card-head">
+          <h2>一、基础信息</h2>
+          <span class="tag-mono">FORM</span>
+        </header>
+        <div class="info-table">
+          <div class="info-row"><span>作品名称</span><b>五兽之镜 · PDP 行为风格测评</b></div>
+          <div class="info-row"><span>作品类型</span><b>互动体验 / 轻量工具 · 单机</b></div>
+          <div class="info-row"><span>运行平台</span><b>Web 浏览器（桌面 + 移动）；千星奇域 UGC 关卡</b></div>
+          <div class="info-row"><span>参赛赛道</span><b class="pending">待填写（按官方赛道选项选择）</b></div>
+          <div class="info-row"><span>技术栈</span><b>原生 HTML / CSS / JS；Lua 5.3（千星沙箱客户端脚本）</b></div>
+          <div class="info-row"><span>完成度</span><b>可完整体验：6 个页面视图、15 题全流程、结果可视化与分享卡</b></div>
+          <div class="info-row"><span>作者</span><b class="pending">待填写</b></div>
+          <div class="info-row"><span>联系方式</span><b class="pending">待填写</b></div>
+          <div class="info-row"><span>第三方素材</span><b>无。图标与图表均为手写 SVG，无外部字体与图片依赖</b></div>
+        </div>
+      </section>
+
+      <section class="submit-card">
+        <header class="submit-card-head">
+          <h2>二、一句话简介</h2>
+          <button class="copy-btn" data-copy="#copyOneLine" type="button"><svg class="ico"><use href="#i-copy"></use></svg>复制</button>
+        </header>
+        <p class="copy-block" id="copyOneLine">用五种动物做一面镜子：15 道情境题、3 分钟，给你一份可解释、可分享的行为风格画像——同时跑在浏览器和千星奇域 UGC 关卡里。</p>
+      </section>
+
+      <section class="submit-card">
+        <header class="submit-card-head">
+          <h2>三、作品简介（约 300 字）</h2>
+          <button class="copy-btn" data-copy="#copyIntro" type="button"><svg class="ico"><use href="#i-copy"></use></svg>复制</button>
+        </header>
+        <div class="copy-block" id="copyIntro">
+          <p>《五兽之镜》是一套基于 PDP 四维模型的轻量行为风格自评工具。它把支配、表达、耐心、精确四个维度，对应为老虎、孔雀、考拉、猫头鹰四种动物，并用「极差 ≤ 2 判为变色龙」的规则，为四项均衡的人保留一个诚实的出口。</p>
+          <p>作品包含两个形态。千星沙箱版是一个纯客户端控件 UI 的 UGC 关卡：53 个控件、657 行 Lua 脚本、零服务端节点，支持鼠标、键盘与手柄三套输入。网页版用原生 HTML/CSS/JS 重做信息架构，补上四维雷达图、逐题回顾、断点续答与 1080×1440 结果分享卡。</p>
+          <p>两端共用同一份题库、同一套判定参数与同一组配色，结果口径一致。全部计算在本地完成，不收集任何作答数据。它适合团队破冰、管理者一对一、求职自省与课堂工作坊——目标不是贴标签，而是给一群人一个不尴尬的开场。</p>
+        </div>
+      </section>
+
+      <section class="submit-card">
+        <header class="submit-card-head">
+          <h2>四、创作灵感</h2>
+          <button class="copy-btn" data-copy="#copyIdea" type="button"><svg class="ico"><use href="#i-copy"></use></svg>复制</button>
+        </header>
+        <div class="copy-block" id="copyIdea">
+          <p>起点是一个很具体的团队摩擦：有人觉得对方「不推进」，有人觉得对方「太着急」，两边都没错，只是默认反应不同。市面上的测评要么太长，要么结果是一段无法验证的形容词。</p>
+          <p>于是想做一件更轻的事：15 题、3 分钟、结果可解释、当场能分享。动物比喻的好处是它能在会议室里被说出口——「他是孔雀」比「他的表达维度得分较高」更容易让人接话。</p>
+          <p>把它做进千星奇域，则是因为：如果这套交互只能在网页里成立，它只是一个问卷；能在一个游戏关卡里被玩家主动点开、做完、截图发出去，它才更像一个作品。</p>
+        </div>
+      </section>
+
+      <section class="submit-card">
+        <header class="submit-card-head">
+          <h2>五、功能清单</h2>
+          <button class="copy-btn" data-copy="#copyFeatures" type="button"><svg class="ico"><use href="#i-copy"></use></svg>复制</button>
+        </header>
+        <ul class="copy-list" id="copyFeatures">
+          <li>15 题四选一，作答时隐藏维度，避免照着答案选</li>
+          <li>四维计分 + 极差阈值判定，输出主类型与均衡度</li>
+          <li>结果页：雷达图、四条得分条、优势 / 盲区 / 建议</li>
+          <li>逐题回顾：每题选择与对应维度完整公开</li>
+          <li>键盘 1–4 作答、← 回看、Enter 开始；移动端整块可点</li>
+          <li>localStorage 断点续答与一键清空</li>
+          <li>Canvas 生成 1080×1440 结果分享卡并下载</li>
+          <li>五型图鉴与协作对照表</li>
+          <li>纯本地计算，无账号、无后端、无埋点</li>
+        </ul>
+      </section>
+
+      <section class="submit-card">
+        <header class="submit-card-head">
+          <h2>六、使用场景</h2>
+          <button class="copy-btn" data-copy="#copyScenarios" type="button"><svg class="ico"><use href="#i-copy"></use></svg>复制</button>
+        </header>
+        <div class="copy-block" id="copyScenarios">
+          <p><b>1. 团队破冰与新人融入。</b>每人各自做完，把结果卡发到群里，用五种动物代替性格标签，10 分钟完成一次有信息量的互相认识。</p>
+          <p><b>2. 管理者的一对一沟通。</b>用「注意盲区」与「协作提示」两段作为破题材料，把「你怎么这样」换成「你需要什么」。</p>
+          <p><b>3. 求职与自我盘点。</b>看四项得分的相对高低而非只看标签，把「核心优势」翻译成简历里的行为证据。</p>
+          <p><b>4. 课堂、社团与工作坊。</b>无需登录、手机打开即用，投屏演示 + 各自作答，主持人按类型现场分组讨论。</p>
+          <p><b>5. 游戏内的轻量互动。</b>千星沙箱版作为 UGC 关卡中的休闲交互点，单局 3 分钟，零服务端节点。</p>
+        </div>
+      </section>
+
+      <section class="submit-card">
+        <header class="submit-card-head">
+          <h2>七、技术亮点</h2>
+          <button class="copy-btn" data-copy="#copyTech" type="button"><svg class="ico"><use href="#i-copy"></use></svg>复制</button>
+        </header>
+        <div class="copy-block" id="copyTech">
+          <p><b>双端同源。</b>题库、类型文案与判定参数在 Lua 与 JS 两侧逐条对应，改动需两端同步，保证结果口径一致。</p>
+          <p><b>沙箱端零节点。</b>全部逻辑在客户端脚本内完成，不引入服务端节点图，也不依赖动态创建控件——53 个控件全部编辑期预置，规避了「只有模板控件的父节点才能动态创建」的限制。</p>
+          <p><b>接口可追溯。</b>沙箱脚本的每个接口名都标注了官方文档章节；不确定的接口不猜，改为在文档中列为待核实项。</p>
+          <p><b>零依赖前端。</b>无框架、无构建、无 CDN，单文件夹可直接静态托管；图标与图表全部手写 SVG，分享卡由 Canvas 现场绘制。</p>
+        </div>
+      </section>
+
+      <section class="submit-card">
+        <header class="submit-card-head">
+          <h2>八、3 分钟演示脚本</h2>
+          <button class="copy-btn" data-copy="#copyDemo" type="button"><svg class="ico"><use href="#i-copy"></use></svg>复制</button>
+        </header>
+        <ol class="demo-steps" id="copyDemo">
+          <li><span>0:00</span>首页停 10 秒：一句话说清「15 题、3 分钟、五种动物」，指出这是双端作品。</li>
+          <li><span>0:20</span>点「开始测评」，快速答 4–5 题，展示进度条与键盘作答（按 1–4）。</li>
+          <li><span>0:50</span>点「上一题」展示可回看，再说明进度会自动保存、刷新可续答。</li>
+          <li><span>1:10</span>直接跳到最后一题完成，进入结果页：先看类型，再看雷达图与极差解释。</li>
+          <li><span>1:50</span>展开「答题回顾」，说明维度在结果页才公开的设计取舍。</li>
+          <li><span>2:10</span>点「下载结果卡」，展示生成的 1080×1440 图片。</li>
+          <li><span>2:30</span>切到「五型图鉴」看协作对照表，再切「作品介绍」讲双端实现与零依赖。</li>
+          <li><span>2:50</span>收尾：强调纯本地计算、不收集数据，并说明沙箱版的 53 控件 / 657 行 Lua。</li>
+        </ol>
+      </section>
+
+      <section class="submit-card">
+        <header class="submit-card-head">
+          <h2>九、原创声明</h2>
+          <button class="copy-btn" data-copy="#copyOrigin" type="button"><svg class="ico"><use href="#i-copy"></use></svg>复制</button>
+        </header>
+        <div class="copy-block" id="copyOrigin">
+          <p>作品代码、界面、图标与文案均为原创实现。PDP（Professional Dyna-Metric Programs）为既有的行为风格理论，本作品是对该理论的独立实现与再设计，未使用任何第三方测评机构的题目、量表或素材。作品中不包含任何外部图片、字体文件与商用素材。</p>
+        </div>
+      </section>
+    </div>
+
+    <aside class="submit-side">
+      <div class="side-card sticky">
+        <h3>提交前检查</h3>
+        <ul class="checklist" id="checklist">
+          <li><label><input type="checkbox"><span>作品名称与一句话简介已填入表单</span></label></li>
+          <li><label><input type="checkbox"><span>参赛赛道已按官方选项选择</span></label></li>
+          <li><label><input type="checkbox"><span>作者与联系方式已补全</span></label></li>
+          <li><label><input type="checkbox"><span>演示链接可正常打开（建议部署后填写）</span></label></li>
+          <li><label><input type="checkbox"><span>已在手机尺寸下完整走完一次测评</span></label></li>
+          <li><label><input type="checkbox"><span>已确认无第三方素材与隐私采集</span></label></li>
+        </ul>
+        <div class="progress-mini"><span id="checkFill" style="width: 0%;"></span></div>
+        <p class="check-count"><b id="checkDone">0</b> / 6 已完成</p>
+      </div>
+
+      <div class="side-card side-card-quiet">
+        <h3>体验入口</h3>
+        <p>评审可直接从首页开始，无需登录。若已部署到静态托管，把链接填入表单的「作品链接」即可。</p>
+        <a class="btn btn-primary btn-block" href="#/test">打开测评<svg class="ico"><use href="#i-arrow"></use></svg></a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================================================ 页脚 -->
+<footer class="site-foot">
+<div class="container foot-grid">
+    <div class="foot-brand">
+      <span class="brand-mark"><svg width="26" height="26"><use href="#i-brand"></use></svg></span>
+      <div>
+        <strong>五兽之镜</strong><p style="white-space: pre-wrap;">PDP 行为风格测评​​​</p>
+        
+      </div>
+    </div>
+    <nav class="foot-links" aria-label="页脚导航">
+      <a href="#/test">开始测评</a>
+      <a href="#/types">五型图鉴</a>
+    </nav>
+    <div class="foot-stats" role="group" aria-label="访问统计">
+      <span class="fs-num" id="visitCount">—</span>
+      <span class="fs-body">
+        <strong id="visitLabel">次全站访问</strong>
+        <em id="visitMeta">读取中</em>
+      </span>
+    </div>
+    <p class="foot-note">
+      本作品为行为风格自评工具，非临床心理诊断，不应用于招聘筛选或人事决策。<br>
+      访问统计仅在本机记录，不上传服务器；作答数据同样只保存在本机浏览器。
+    </p>
+  </div>
+
+  
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+
+
+</body></html>
